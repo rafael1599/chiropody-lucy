@@ -1,6 +1,6 @@
 <template>
-<div class="laser__treatments">
-    <h1 class="text">TERAPIAS REHABILITADORAS</h1>
+<div class="rehab">
+    <h1>TERAPIAS REHABILITADORAS</h1>
     <div class="cards">
       <div class="laser__card card">
         <v-card class="mx-auto" max-width="344">

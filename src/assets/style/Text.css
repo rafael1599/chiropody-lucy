@@ -4,6 +4,8 @@
 
 h1 {
     @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Roboto:wght@300&display=swap');
+    margin-left: 103px;
+    display: flex;
     font-family: 'Roboto', sans-serif;
     font-size: 36px;
     font-weight: 400;
