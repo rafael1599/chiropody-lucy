@@ -1,0 +1,33 @@
+.home {
+    display: flex;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img__logo {
+    margin: 0 15px;
+    width: 40%;
+    height: 40%;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 5px;
+    width: 20%;
+    height: 20%;
+}
+
+.landing__img {
+    padding-right: 46px;
+    padding-left: 105px;
+    position: static;
+    width: 110%;
+    height: 110%;
+}
