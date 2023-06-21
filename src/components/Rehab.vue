@@ -25,6 +25,11 @@
       </div>
     </div>
   </div>
+
+  <!-- Contacto -->
+  <div class="contacto">
+    
+  </div>
 </template>
 <script>
 export default {

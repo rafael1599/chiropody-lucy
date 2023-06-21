@@ -3,6 +3,10 @@
   <Services msg="Services"/>
   <Laser msg="Laser"/>
   <Rehab msg="Rehab"/>
+  <Catalog/>
+  <v-app>
+  <Footer msg="Footer"/>
+  </v-app>
 </template>
 
 <script>
@@ -10,6 +14,8 @@ import Home from './components/Home.vue';
 import Services from './components/Services.vue';
 import Rehab from './components/Rehab.vue';
 import Laser from './components/Laser.vue';
+import Footer from './components/Footer.vue';
+import Catalog from './components/Catalog.vue';
 
 export default {
   name: 'App',
@@ -18,6 +24,8 @@ export default {
     Services,
     Laser,
     Rehab,
+    Footer,
+    Catalog,
   }
 }
 </script>
