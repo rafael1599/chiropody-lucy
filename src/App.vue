@@ -46,5 +46,6 @@ body{
 @import "./assets/style/Home.css";
 @import "./assets/style/Text.css";
 @import "./assets/style/Services.css";
+@import "./assets/style/Footer.css";
 
 </style>

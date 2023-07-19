@@ -1,7 +1,7 @@
 <template>
     <div class="contacto">
-        <div class="logos">
-            <div class="social">
+        <div class="footer-logos">
+            <div class="footer-social">
                 <a href="http://www.facebook.com" target="_blank" class="logo"><v-img src="../assets/img/f.svg"
                         alt="facebook"></v-img> </a>
                 <a href="http://www.whatsapp.com" target="_blank" class="logo"><v-img src="../assets/img/w.svg"
@@ -14,7 +14,7 @@
                 </a>
             </div>
         </div>
-        <div>
+        <div class="footer-text">
             <p style="font-weight: 600;">Horario</p>
             <p>Lunes a viernes de 9:00 am - 7:00 pm</p>
             <p>Sábado de 9:00 am - 2:00 pm</p>
@@ -40,8 +40,8 @@
             <v-btn v-for="link in links" :key="link" color="white" text rounded class="ml-2">
                 {{ link }}
             </v-btn>
-            <v-col class="primary lighten-2 py-4 text-center white--text" cols="12">
-                {{ new Date().getFullYear() }} — <strong>Vuetify</strong>
+            <v-col class="primary lighten-2 py-4 text-center white--text text" cols="12">
+                {{ new Date().getFullYear() }} — <strong>Confi </strong>
             </v-col>
         </v-row>
     </v-footer>

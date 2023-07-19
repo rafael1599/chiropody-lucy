@@ -2,3 +2,7 @@
     width: 1520px;
     height: 580px;
   }
+.v-btn{
+  display: flex;
+  justify-content: center;
+}
